@@ -5,11 +5,11 @@ Welcome to the Trivia Game Application!
 
 ## Introduction:
 
-The Trivia Game Application is an engaging and feature-rich platform designed to provide users with a captivating trivia experience. Aimed at offering a seamless and interactive environment, this project addresses various aspects of user engagement, from authentication and profile management to in-game experiences and virtual assistance.
+The Trivia Game Application is a feature-rich platform designed to provide users with a captivating trivia experience. This project addresses various aspects of user engagement, from authentication and profile management to in-game experiences and virtual assistance.
 
-## Significance and Impact:
+Distinguished by its cutting-edge architecture, the Trivia Game Application leverages microservices, Multi-cloud integration, and serverless computing to elevate its performance and scalability. Users can expect a high-quality, resilient, and adaptable trivia platform that thrives on the latest advancements in technology.
 
-The significance of this project lies in its ability to create an enjoyable trivia experience for users while showcasing the developer's proficiency in integrating diverse technologies. By incorporating cloud services, AI, and modern development practices, this project sets a standard for interactive and feature-packed applications.
+By incorporating cloud services, AI, and modern development practices, this project sets a standard for interactive and feature-packed applications.
 
 # Technologies Used:
 
@@ -97,19 +97,19 @@ The Trivia Game Application makes extensive use of cloud services from AWS and G
 | GCP Firestore           | Used in multiple features, including User Authentication (storing security questions and answers), User Profile Management (storing user information), Trivia Game Lobby (storing games and questions), Team Management (as a database for team-related data), and Automated Question Tagging (storing tagged questions).  |
 | Google Cloud Natural Language API | Used in Automated Question Tagging for its NLP capabilities in automatically tagging newly added questions.                                                                         |
 
-# Challenges and Solutions:
+# Challenges and Technical Resolutions:
 
 ## Challenges:
 
 - **Integration of AI Services:**
   - Faced issues with OpenAI API call limits.
-  - Overcame by creating a new account and implementing usage optimizations.
+  - Overcame by implementing request batching and optimizing payload size to maximize efficiency.
 
 - **Leaderboards Implementation:**
   - AWS Academy restrictions on QuickSight access.
-  - Worked around by creating a personal AWS account for QuickSight.
+  - Worked around by utilizing Amazon Quicksight Embedding for secure external access.
 
-## Solutions:
+## Technical Resolutions:
 
 - **CI/CD Pipeline and Dockerization:**
   - Configured a robust CI/CD pipeline for the frontend with Docker on GCP Cloud Run.
@@ -139,18 +139,9 @@ The project follows a rigorous testing approach, utilizing:
 - Integration testing for end-to-end functionality.
 - Continuous monitoring and optimization for performance.
 
-# Usage Examples:
-
-```javascript
-// Example code snippet for user authentication
-const authenticateUser = async (username, password) => {
-  const result = await AwsCognito.authenticate(username, password);
-  return result;
-};
-```
 # Demo or Screenshots:
 
-Explore a live demo of the Trivia Game Application [here](#demo-link).
+Explore a live demo of the Trivia Game Application [here](https://youtu.be/eTLSRA15ZYY).
 
 
                                                                                                                                                                                                                                
