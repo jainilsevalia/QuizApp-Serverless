@@ -3,6 +3,9 @@
 
 Welcome to the Trivia Game Application!
 
+## Serverless Architecture
+![Project Architecture](client/Architecture.png)
+
 ## Introduction:
 
 The Trivia Game Application is a feature-rich platform designed to provide users with a captivating trivia experience. This project addresses various aspects of user engagement, from authentication and profile management to in-game experiences and virtual assistance.
@@ -19,9 +22,6 @@ The Trivia Game Application follows a modular architecture, leveraging microserv
 - Cloud-native data storage with GCP Firestore and AWS DynamoDB.
 - Docker containerization for microservices, hosted on AWS ECR.
 - Integration of AI services for enhanced team management.
-
-## Serverless Architecture
-![alt Serverless Application](https://github.com/jainilsevalia/QuizApp-Serverless/blob/main/SDP_MultiCloud_Architecture.drawio.png)
 
 # Cloud Services Integration:
 
